@@ -1,0 +1,61 @@
+.prediction-container{
+    height: 80vh;
+    width: 100%;
+    margin:1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.prediction-container textarea{
+    max-width: 900px;
+    min-height: 6rem;
+    width: 100%;
+    border-radius: 20px;
+    border:3px solid #266ABA;
+    padding:10px;
+    margin: 3rem 0;
+    color:rgba(78, 78, 78, 0.8);
+    background: rgba(233, 232, 232, 0.71);
+    border: 2.5px solid #266ABA;
+    
+
+
+}
+
+.prediction-container  h1{
+    color:#266ABA;
+}
+
+
+.result-predictions{
+    margin: 2rem 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media screen and (max-width:900px){ 
+    .prediction-container textarea{
+        max-width: 600px;
+    }
+
+}
+
+@media screen and (max-width:640px){ 
+    .prediction-container textarea{
+        max-width: 400px;
+    }
+
+}
+@media screen and (max-width:430px){ 
+    .prediction-container textarea{
+        max-width: 300px;
+    }
+
+}
+
